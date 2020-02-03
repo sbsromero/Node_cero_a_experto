@@ -1,7 +1,3 @@
-## Aplicación de comandos
+## Repositorio de estudio de Node js
 
-Para instalar los paquetes de node
-
-```
-npm install
-```
+Este es un repositorio donde se hacen proyectos personales con la finalidad de aprender node.
