@@ -10,7 +10,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // create application/json parser
 app.use(bodyParser.json());
 
-app.use(require('./routes/usuario'));
+//Configuracion globlan de rutas
+app.use(require('./routes/index'));
 
 app.listen(process.env.PORT, () => {
     console.log('Escuchando puerto', process.env.PORT);
